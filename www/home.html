@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="weatherApp">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Wather App</title>
+    <link data-require="bootstrap-css@3.1.1" data-semver="3.1.1" rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
+  </head>
+
+  <body >
+    <weather-component city="42.7243,-73.6927"></weather-app>
+
+      <script data-require="jquery@*" data-semver="2.1.4" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script data-require="angular.js@1.4.3" data-semver="1.4.3" src="https://code.angularjs.org/1.4.3/angular.js"></script>
+      <script src="app/app.js"></script>
+      <script src="app/directive/weatherDirective.js"></script>
+      <script src="app/service/weatherService.js"></script>
+  </body>
+
+</html>

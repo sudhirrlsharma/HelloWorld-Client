@@ -1,0 +1,21 @@
+<div class="weather">
+  <div class="city">
+    <h2>{{ weather.timezone}}</h2>
+  </div>
+
+      <div class="details">
+        <span class="day">Day: {{ weather.currently.time }}</span>
+        <p class="description">Summery:  
+          {{ weather.currently.summary }}
+        </p>
+        <img ng-src="{{ (weather.currently.icon) }}">
+      </div>
+      <div class="temp">Temperature
+        {{ weather.currently.temperature}}
+      </div>
+      {{ weather.currently.humidity}}
+      <div class="humidity">humidity
+
+      </div>
+
+</div>
